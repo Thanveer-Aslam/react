@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.becf75d3.css",
-    "main.js": "/static/js/main.e7f6caab.js",
-    "static/js/488.2b77a86d.chunk.js": "/static/js/488.2b77a86d.chunk.js",
-    "static/media/gym.png": "/static/media/gym.6da3984a97bdaa7a2f39.png",
-    "static/media/dumbell.png": "/static/media/dumbell.f5cc016b67332b4d78e9.png",
-    "index.html": "/index.html",
-    "main.becf75d3.css.map": "/static/css/main.becf75d3.css.map",
-    "main.e7f6caab.js.map": "/static/js/main.e7f6caab.js.map",
-    "488.2b77a86d.chunk.js.map": "/static/js/488.2b77a86d.chunk.js.map"
+    "main.css": "/react/static/css/main.becf75d3.css",
+    "main.js": "/react/static/js/main.1ebe28d7.js",
+    "static/js/488.2b77a86d.chunk.js": "/react/static/js/488.2b77a86d.chunk.js",
+    "static/media/gym.png": "/react/static/media/gym.6da3984a97bdaa7a2f39.png",
+    "static/media/dumbell.png": "/react/static/media/dumbell.f5cc016b67332b4d78e9.png",
+    "index.html": "/react/index.html",
+    "main.becf75d3.css.map": "/react/static/css/main.becf75d3.css.map",
+    "main.1ebe28d7.js.map": "/react/static/js/main.1ebe28d7.js.map",
+    "488.2b77a86d.chunk.js.map": "/react/static/js/488.2b77a86d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.becf75d3.css",
-    "static/js/main.e7f6caab.js"
+    "static/js/main.1ebe28d7.js"
   ]
 }
