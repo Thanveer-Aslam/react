@@ -1,0 +1,47 @@
+/* Reset all elements' padding, margin and box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the navigation bar */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+/* Logo styling */
+.logo .icon {
+    font-size: 24px;
+}
+
+/* Flexbox applied to the navigation list to arrange items horizontally */
+.nav-list {
+    display: flex;                /* Flexbox to arrange items in a row */
+    list-style: none;             /* Remove default bullet points */
+    padding: 0;                   /* Remove any default padding */
+    margin: 0;                    /* Remove any default margin */
+}
+
+/* Styling for each navigation item (li) */
+.nav-list li {
+    margin-left: 20px;            /* Space between each item */
+    cursor: pointer;             /* Show pointer cursor when hovering */
+    transition: all 0.3s ease;    /* Smooth transition on hover */
+}
+
+/* Remove left margin from the first item */
+.nav-list li:first-child {
+    margin-left: 0;
+}
+
+/* Hover effect: underline the text when hovering over a list item */
+.nav-list li:hover {
+    text-decoration: underline;
+}

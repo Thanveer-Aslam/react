@@ -1,0 +1,98 @@
+/* Ensure box-sizing includes padding and border in width/height calculations */
+* {
+    box-sizing: border-box;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around; /* Ensure space between the two sections */
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    gap: 20px; /* Adds a gap between the two sections */
+
+}
+
+/* Content section styles */
+.content, .content-image {
+    width: 50%; /* Keeps both sections equally spaced */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically */
+}
+
+/* Dumbell image styling */
+.dumbell {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    align-self: center; /* Centers the dumbell image horizontally */
+    position: relative;
+    left: 85px;
+}
+
+.landing-title {
+    align-self: self-end;
+    /* padding-left: 180px; */
+    position: relative;
+    left: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.landing-para {
+    align-self: center;
+    padding-left: 50px;
+    text-align: center;
+    position: relative;
+    left: 90px;
+}
+
+.deal {
+    align-self: center;
+    padding-left: 170px;
+    position: relative;
+    left: 30px;
+}
+
+/* Gym image styling */
+.gym {
+    width: 350px;
+    height: 600px;
+    max-width: 100%; /* Ensures the gym image is responsive */
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button styling */
+ul.buttons {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: center; /* Centers the buttons horizontally */
+    position: relative;
+    left: 120px;
+    
+}
+
+ul.buttons li {
+    margin: 10px;
+}
+
+button {
+    background-color: #ff8400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: end;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
